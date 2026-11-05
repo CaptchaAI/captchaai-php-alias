@@ -1,15 +1,24 @@
 {
     "name": "captchaai/captchaai-php",
-    "description": "Alias package — installs captchaai/captchaai. Use that package directly if you prefer.",
+    "description": "Alias package for captchaai/captchaai (Official CaptchaAI PHP SDK)",
     "type": "library",
     "license": "MIT",
-    "homepage": "https://github.com/CaptchaAI/captchaai-PHP",
-    "support": {
-        "issues": "https://github.com/CaptchaAI/captchaai-PHP/issues",
-        "source": "https://github.com/CaptchaAI/captchaai-PHP"
-    },
+    "homepage": "https://captchaai.com/",
+    "keywords": [
+        "captcha",
+        "captchaai",
+        "captcha-solver",
+        "php",
+        "sdk"
+    ],
+    "authors": [
+        {
+            "name": "CaptchaAI",
+            "email": "dev@captchaai.com",
+            "homepage": "https://captchaai.com"
+        }
+    ],
     "require": {
         "captchaai/captchaai": "^1.0"
-    },
-    "minimum-stability": "stable"
+    }
 }
